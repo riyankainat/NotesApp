@@ -1,635 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Privacy Policy | NotesApp</title>
+    <title>Privacy Policy | Notely</title>
 
-  <meta name="description"
-    content="Privacy Policy for NotesApp by Riyan Kainat. Learn how NotesApp handles your notes, images, permissions and personal information.">
+    <meta name="description" content="Read the Privacy Policy of Notely, an offline notes application developed by Riyan Kainat.">
 
-  <meta name="robots" content="index, follow">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-  <style>
-    :root {
-      --primary: #6750A4;
-      --primary-dark: #50358a;
-      --background: #f7f7fb;
-      --surface: #ffffff;
-      --text: #1d1b20;
-      --secondary: #625f67;
-      --border: #e6e1e8;
-      --soft: #f1edf7;
-    }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f7fb;
+            color: #333;
+            line-height: 1.7;
+            padding: 20px;
+        }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+        .container {
+            max-width: 850px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        }
 
-    html {
-      scroll-behavior: smooth;
-    }
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #e5e7eb;
+        }
 
-    body {
-      font-family:
-        Inter,
-        -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        Arial,
-        sans-serif;
-      background: var(--background);
-      color: var(--text);
-      line-height: 1.7;
-    }
+        .logo {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
 
-    a {
-      color: var(--primary);
-      text-decoration: none;
-    }
+        h1 {
+            font-size: 32px;
+            color: #222;
+            margin-bottom: 10px;
+        }
 
-    a:hover {
-      text-decoration: underline;
-    }
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+        }
 
-    /* HEADER */
+        .app-info {
+            background: #f0f5ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 25px;
+            text-align: left;
+        }
 
-    .header {
-      background: linear-gradient(
-        135deg,
-        var(--primary),
-        #8065c5
-      );
-      color: white;
-      padding: 55px 20px;
-    }
+        .app-info p {
+            margin: 5px 0;
+        }
 
-    .header-inner {
-      max-width: 900px;
-      margin: auto;
-    }
+        h2 {
+            font-size: 21px;
+            color: #222;
+            margin-top: 30px;
+            margin-bottom: 12px;
+        }
 
-    .app-logo {
-      width: 58px;
-      height: 58px;
-      border-radius: 16px;
-      background: rgba(255,255,255,0.18);
-      border: 1px solid rgba(255,255,255,0.25);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 28px;
-      margin-bottom: 22px;
-    }
+        p {
+            margin-bottom: 14px;
+        }
 
-    .header h1 {
-      font-size: 40px;
-      line-height: 1.2;
-      margin-bottom: 10px;
-      letter-spacing: -0.5px;
-    }
+        ul {
+            margin: 10px 0 18px 25px;
+        }
 
-    .header p {
-      font-size: 16px;
-      opacity: 0.9;
-    }
+        li {
+            margin-bottom: 8px;
+        }
 
-    /* MAIN */
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            overflow-wrap: anywhere;
+        }
 
-    .container {
-      max-width: 900px;
-      margin: 42px auto;
-      padding: 0 20px;
-    }
+        a:hover {
+            text-decoration: underline;
+        }
 
-    .policy {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 22px;
-      padding: 45px;
-      box-shadow:
-        0 10px 35px rgba(40, 30, 60, 0.06);
-    }
+        .highlight {
+            background: #f8fafc;
+            border-left: 4px solid #2563eb;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
 
-    /* INFO */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #777;
+            font-size: 14px;
+        }
 
-    .info {
-      background: var(--soft);
-      border: 1px solid #e2dced;
-      border-radius: 14px;
-      padding: 20px;
-      margin-bottom: 35px;
-    }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
 
-    .info-row {
-      display: flex;
-      gap: 8px;
-      margin: 5px 0;
-      flex-wrap: wrap;
-    }
+            .container {
+                padding: 22px;
+                margin: 10px auto;
+            }
 
-    .info-label {
-      font-weight: 700;
-      min-width: 120px;
-    }
+            h1 {
+                font-size: 27px;
+            }
 
-    /* INTRO */
-
-    .intro {
-      font-size: 16px;
-      color: var(--secondary);
-      margin-bottom: 30px;
-    }
-
-    /* SECTIONS */
-
-    .section {
-      padding-top: 30px;
-      margin-top: 30px;
-      border-top: 1px solid var(--border);
-    }
-
-    .section:first-of-type {
-      border-top: none;
-      padding-top: 0;
-      margin-top: 0;
-    }
-
-    .section h2 {
-      font-size: 21px;
-      margin-bottom: 12px;
-      color: var(--text);
-    }
-
-    .section p {
-      color: var(--secondary);
-      margin-bottom: 13px;
-    }
-
-    .section ul {
-      margin: 10px 0 15px 23px;
-      color: var(--secondary);
-    }
-
-    .section li {
-      margin-bottom: 6px;
-    }
-
-    /* CONTACT */
-
-    .contact-box {
-      margin-top: 35px;
-      padding: 22px;
-      background: #faf9fc;
-      border: 1px solid var(--border);
-      border-radius: 14px;
-    }
-
-    .contact-box h3 {
-      margin-bottom: 8px;
-      font-size: 18px;
-    }
-
-    /* FOOTER */
-
-    footer {
-      text-align: center;
-      padding: 35px 20px 45px;
-      color: #77727c;
-      font-size: 13px;
-    }
-
-    .footer-name {
-      font-weight: 700;
-      color: #4d4851;
-      margin-bottom: 5px;
-    }
-
-    /* MOBILE */
-
-    @media (max-width: 650px) {
-
-      .header {
-        padding: 40px 20px;
-      }
-
-      .header h1 {
-        font-size: 31px;
-      }
-
-      .container {
-        margin: 25px auto;
-        padding: 0 12px;
-      }
-
-      .policy {
-        padding: 25px 20px;
-        border-radius: 16px;
-      }
-
-      .info-row {
-        display: block;
-        margin: 9px 0;
-      }
-
-      .info-label {
-        display: block;
-      }
-
-      .section h2 {
-        font-size: 19px;
-      }
-
-      .section p,
-      .section li {
-        font-size: 14px;
-      }
-    }
-  </style>
+            h2 {
+                font-size: 19px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-  <!-- HEADER -->
+<div class="container">
 
-  <header class="header">
+    <header>
+        <div class="logo">📝</div>
 
-    <div class="header-inner">
+        <h1>Privacy Policy</h1>
 
-      <div class="app-logo">
-        📝
-      </div>
+        <p class="subtitle">
+            Notely · By Riyan Kainat
+        </p>
 
-      <h1>Privacy Policy</h1>
+        <div class="app-info">
+            <p><strong>App Name:</strong> Notely</p>
+            <p><strong>Developer:</strong> Riyan Kainat</p>
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:riyankainat@gmail.com">
+                    riyankainat@gmail.com
+                </a>
+            </p>
+            <p><strong>Last Updated:</strong> September 25, 2026</p>
+        </div>
+    </header>
 
-      <p>
-        NotesApp · By Riyan Kainat
-      </p>
+    <p>
+        Thank you for using Notely. Your privacy is important to us.
+        This Privacy Policy explains how Notely handles information
+        when you use our offline notes application.
+    </p>
 
+    <p>
+        Notely is designed to help you create, edit, organize, save,
+        and share your personal notes.
+    </p>
+
+    <h2>1. Information We Collect</h2>
+
+    <p>
+        Notely is designed to work as an offline notes application.
+        The information you create or enter in the app may include:
+    </p>
+
+    <ul>
+        <li>Note titles and descriptions</li>
+        <li>Text formatting and text colors</li>
+        <li>Categories and folders</li>
+        <li>Images added to notes</li>
+        <li>Favorite and pinned note status</li>
+        <li>Note creation and update information</li>
+    </ul>
+
+    <p>
+        Notely does not intentionally collect sensitive personal
+        information. However, you may voluntarily include personal
+        information in your notes.
+    </p>
+
+    <h2>2. How Information Is Used</h2>
+
+    <p>
+        Information created within Notely is used to provide the
+        app's features, including:
+    </p>
+
+    <ul>
+        <li>Creating and saving notes</li>
+        <li>Editing existing notes</li>
+        <li>Organizing notes into categories</li>
+        <li>Adding and displaying images</li>
+        <li>Pinning important notes</li>
+        <li>Marking notes as favorites</li>
+        <li>Deleting notes</li>
+        <li>Saving text formatting and colors</li>
+        <li>Generating note images for sharing</li>
+    </ul>
+
+    <h2>3. Storage of Your Notes</h2>
+
+    <p>
+        Notely is designed to store notes locally on your device
+        so that you can access them offline.
+    </p>
+
+    <div class="highlight">
+        <strong>Important:</strong>
+        Your notes are intended to remain on your device unless
+        you choose to share them using an available sharing feature.
     </div>
 
-  </header>
+    <p>
+        We do not sell, rent, or trade your notes or personal
+        content to third parties.
+    </p>
 
+    <p>
+        If you uninstall Notely or clear the application's data,
+        locally stored notes and related information may be
+        permanently removed.
+    </p>
 
-  <!-- CONTENT -->
+    <h2>4. Image Sharing and WhatsApp</h2>
 
-  <main class="container">
+    <p>
+        Notely allows you to share your notes as images using
+        compatible applications installed on your device.
+    </p>
 
-    <article class="policy">
+    <p>
+        When you choose to share a note as an image:
+    </p>
 
-      <div class="info">
+    <ul>
+        <li>
+            The app generates an image of the note you select.
+        </li>
+        <li>
+            Your device may display a sharing menu with compatible
+            applications such as WhatsApp.
+        </li>
+        <li>
+            You choose the application and recipient with whom
+            you want to share the image.
+        </li>
+        <li>
+            The selected application handles the image after
+            you choose to share it.
+        </li>
+    </ul>
 
-        <div class="info-row">
-          <span class="info-label">App Name:</span>
-          <span>NotesApp</span>
-        </div>
+    <p>
+        Notely does not independently send your notes to WhatsApp
+        or other applications without your action.
+    </p>
 
-        <div class="info-row">
-          <span class="info-label">Developer:</span>
-          <span>Riyan Kainat</span>
-        </div>
+    <p>
+        Once you share an image through a third-party application,
+        that application's privacy policy and terms of service
+        apply to the shared content.
+    </p>
 
-        <div class="info-row">
-          <span class="info-label">Email:</span>
-          <a href="mailto:riyankainat@gmail.com">
-            riyankainat@gmail.com
-          </a>
-        </div>
+    <h2>5. Images and Media Access</h2>
 
-        <div class="info-row">
-          <span class="info-label">Last Updated:</span>
-          <span>September 20, 2026</span>
-        </div>
+    <p>
+        If you choose to add an image to a note, Notely may use
+        the photo picker or relevant device permissions to allow
+        you to select images.
+    </p>
 
-      </div>
+    <p>
+        Access to photos and media is used to support the
+        app's image-related features.
+    </p>
 
+    <p>
+        You can manage or revoke application permissions through
+        your device settings.
+    </p>
 
-      <p class="intro">
-        Thank you for using NotesApp. Your privacy is important to us.
-        This Privacy Policy explains how NotesApp handles information
-        when you use the application.
-      </p>
+    <h2>6. Permissions</h2>
 
+    <p>
+        Depending on the features you use and your Android version,
+        Notely may request permissions related to:
+    </p>
 
-      <!-- 1 -->
-
-      <section class="section">
-
-        <h2>1. Information We Collect</h2>
-
-        <p>
-          NotesApp is designed to help you create, edit, organize
-          and manage your personal notes.
-        </p>
-
-        <p>
-          Depending on how you use the application, information
-          entered or created within the app may include:
-        </p>
-
-        <ul>
-          <li>Note titles</li>
-          <li>Note descriptions</li>
-          <li>Text formatting and text colors</li>
-          <li>Categories</li>
-          <li>Images added to notes</li>
-          <li>Favorite and pinned note status</li>
-          <li>Note creation and update information</li>
-        </ul>
-
-        <p>
-          NotesApp does not intentionally collect sensitive personal
-          information unless you voluntarily include such information
-          in your notes.
-        </p>
-
-      </section>
-
-
-      <!-- 2 -->
-
-      <section class="section">
-
-        <h2>2. How Information Is Used</h2>
-
-        <p>
-          Information created within NotesApp is used to provide
-          and operate the features of the application, including:
-        </p>
-
-        <ul>
-          <li>Creating and saving notes</li>
-          <li>Editing existing notes</li>
-          <li>Organizing notes into categories</li>
-          <li>Adding and displaying images</li>
-          <li>Pinning important notes</li>
-          <li>Marking notes as favorites</li>
-          <li>Deleting and restoring notes</li>
-          <li>Saving text formatting and colors</li>
-        </ul>
-
-      </section>
-
-
-      <!-- 3 -->
-
-      <section class="section">
-
-        <h2>3. Storage of Your Notes</h2>
-
-        <p>
-          Notes and related content may be stored locally on your
-          device, depending on the application's configuration.
-        </p>
-
-        <p>
-          We do not sell, rent, or trade your notes or personal
-          content to third parties.
-        </p>
-
-        <p>
-          If you uninstall NotesApp or clear the application's
-          data, locally stored information may be removed according
-          to your device's operating system behavior.
-        </p>
-
-      </section>
-
-
-      <!-- 4 -->
-
-      <section class="section">
-
-        <h2>4. Images and Media</h2>
-
-        <p>
-          If you choose to add an image to a note, NotesApp may
-          request access to photos, media, or files on your device.
-        </p>
-
-        <p>
-          This access is used to allow you to select and use images
-          within your notes.
-        </p>
-
-        <p>
-          NotesApp does not intentionally access your photos or
-          media unless you provide the required permission or
-          select an image through the relevant system picker.
-        </p>
-
-      </section>
-
-
-      <!-- 5 -->
-
-      <section class="section">
-
-        <h2>5. Permissions</h2>
-
-        <p>
-          Depending on the features you use and your Android version,
-          NotesApp may request permissions related to:
-        </p>
-
-        <ul>
-
-          <li>
+    <ul>
+        <li>
             Photos or media access, to allow you to select images
             for your notes.
-          </li>
-
-          <li>
+        </li>
+        <li>
             File or storage access, where required by your device
             or Android version.
-          </li>
+        </li>
+    </ul>
 
-        </ul>
+    <p>
+        Notely only uses permissions needed to provide its features.
+    </p>
 
+    <h2>7. Third-Party Services</h2>
+
+    <p>
+        Notely is designed to function offline and does not
+        intentionally transmit your personal notes to our servers.
+    </p>
+
+    <p>
+        When you use third-party applications to share content,
+        those applications may process information according
+        to their own privacy policies.
+    </p>
+
+    <p>
+        If analytics, advertising, crash reporting, cloud storage,
+        or other external services are introduced in future
+        versions, this Privacy Policy may be updated to explain
+        their data practices.
+    </p>
+
+    <h2>8. Data Security</h2>
+
+    <p>
+        We take reasonable measures to protect information
+        handled by the application.
+    </p>
+
+    <p>
+        However, no method of electronic storage or transmission
+        can be guaranteed to be completely secure.
+    </p>
+
+    <p>
+        You are responsible for maintaining the security of
+        your device and protecting access to your notes.
+    </p>
+
+    <h2>9. Children's Privacy</h2>
+
+    <p>
+        Notely does not intentionally collect personal
+        information from children.
+    </p>
+
+    <p>
+        If you believe that a child has provided personal
+        information through the application, please contact
+        us so that we can review the matter.
+    </p>
+
+    <h2>10. Data Deletion</h2>
+
+    <p>
+        You can delete notes and other content using the
+        deletion features provided within the application.
+    </p>
+
+    <p>
+        If information is stored locally on your device,
+        deleting the content, clearing app data, or uninstalling
+        Notely may remove that information.
+    </p>
+
+    <p>
+        Images shared through third-party applications may
+        remain with the recipients or those applications.
+        You may need to manage shared content separately.
+    </p>
+
+    <h2>11. Changes to This Privacy Policy</h2>
+
+    <p>
+        We may update this Privacy Policy from time to time
+        to reflect changes to the application, its features,
+        or applicable requirements.
+    </p>
+
+    <p>
+        Any updated Privacy Policy will be published on this page.
+        Please review this page periodically for changes.
+    </p>
+
+    <h2>12. Contact Us</h2>
+
+    <p>
+        If you have any questions, concerns, or requests regarding
+        this Privacy Policy or Notely's privacy practices,
+        please contact us.
+    </p>
+
+    <div class="app-info">
+        <p><strong>Riyan Kainat</strong></p>
+        <p>Developer of Notely</p>
         <p>
-          You can manage or revoke application permissions through
-          your device settings.
-        </p>
-
-      </section>
-
-
-      <!-- 6 -->
-
-      <section class="section">
-
-        <h2>6. Third-Party Services</h2>
-
-        <p>
-          NotesApp does not intentionally sell or share your personal
-          note content with third parties.
-        </p>
-
-        <p>
-          If third-party services such as analytics, advertising,
-          crash reporting, cloud services, or other external
-          services are introduced in future versions, this Privacy
-          Policy may be updated to explain their data practices.
-        </p>
-
-      </section>
-
-
-      <!-- 7 -->
-
-      <section class="section">
-
-        <h2>7. Data Security</h2>
-
-        <p>
-          We take reasonable measures to protect information handled
-          by the application.
-        </p>
-
-        <p>
-          However, no method of electronic storage or transmission
-          can be guaranteed to be completely secure.
-        </p>
-
-        <p>
-          You are responsible for maintaining the security of your
-          device and protecting access to your notes.
-        </p>
-
-      </section>
-
-
-      <!-- 8 -->
-
-      <section class="section">
-
-        <h2>8. Children's Privacy</h2>
-
-        <p>
-          NotesApp does not intentionally collect personal information
-          from children.
-        </p>
-
-        <p>
-          If you believe that a child has provided personal information
-          through the application, please contact us so that we can
-          review the matter.
-        </p>
-
-      </section>
-
-
-      <!-- 9 -->
-
-      <section class="section">
-
-        <h2>9. Data Deletion</h2>
-
-        <p>
-          You can delete notes and other content using the deletion
-          features provided within the application.
-        </p>
-
-        <p>
-          If information is stored locally on your device, deleting
-          the content or uninstalling NotesApp may remove that
-          locally stored information, depending on your device and
-          operating system.
-        </p>
-
-      </section>
-
-
-      <!-- 10 -->
-
-      <section class="section">
-
-        <h2>10. Changes to This Privacy Policy</h2>
-
-        <p>
-          We may update this Privacy Policy from time to time to
-          reflect changes to the application, its features, or
-          applicable requirements.
-        </p>
-
-        <p>
-          Any updated Privacy Policy will be published on this page.
-        </p>
-
-      </section>
-
-
-      <!-- 11 -->
-
-      <section class="section">
-
-        <h2>11. Contact Us</h2>
-
-        <p>
-          If you have any questions, concerns, or requests regarding
-          this Privacy Policy or NotesApp's privacy practices, please
-          contact us.
-        </p>
-
-        <div class="contact-box">
-
-          <h3>Riyan Kainat</h3>
-
-          <p>
-            Developer of NotesApp
-          </p>
-
-          <p>
             Email:
             <a href="mailto:riyankainat@gmail.com">
-              riyankainat@gmail.com
+                riyankainat@gmail.com
             </a>
-          </p>
-
-        </div>
-
-      </section>
-
-
-      <!-- 12 -->
-
-      <section class="section">
-
-        <h2>12. Acceptance of This Policy</h2>
-
-        <p>
-          By using NotesApp, you acknowledge that you have read
-          and understood this Privacy Policy.
         </p>
-
-        <p>
-          Thank you for using NotesApp.
-        </p>
-
-      </section>
-
-    </article>
-
-  </main>
-
-
-  <!-- FOOTER -->
-
-  <footer>
-
-    <div class="footer-name">
-      NotesApp
     </div>
 
-    <div>
-      © 2026 Riyan Kainat. All rights reserved.
-    </div>
+    <h2>13. Acceptance of This Policy</h2>
 
-  </footer>
+    <p>
+        By using Notely, you acknowledge that you have read
+        and understood this Privacy Policy.
+    </p>
+
+    <p>
+        Thank you for using Notely.
+    </p>
+
+    <footer>
+        <p><strong>Notely</strong></p>
+        <p>© 2026 Riyan Kainat. All rights reserved.</p>
+    </footer>
+
+</div>
 
 </body>
 </html>
